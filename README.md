@@ -32,6 +32,9 @@ $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.Main"
 
 Java SE Development Kit 8 -Java SE Runtime Environment 8 -Apache Maven.
 
+# Integracion Continua
+[![CircleCI](https://circleci.com/gh/SoyTiyi/Http-LinkedList.svg?style=svg)](https://circleci.com/gh/SoyTiyi/Http-LinkedList)
+
 ## Correr Pruebas
 
 Para correr las pruebas, ejecutamos el siguiente comando
