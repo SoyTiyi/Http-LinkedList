@@ -1,4 +1,4 @@
-# Taller MVN y GIT
+# Use Maven, HEROKU, GIT, Spark and GITHUB.
 
 En este proyecto vamos a implementar un proyecto utilizando la herramienta de software Maven el cual nos gestiona la contraccion y el manejo del ciclo de vida de nuestros proyectos en Java, y Git que es la herramienta para el control de versiones de nuestro codigo.
 
