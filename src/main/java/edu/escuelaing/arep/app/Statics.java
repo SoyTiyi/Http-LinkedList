@@ -14,7 +14,6 @@ public class Statics {
 
 	/**
 	 * Este es el constructor que recibe ya la lista con los valores
-	 * @param linkedList
 	 */
 	public Statics(LinkedList linkedList) {
 		this.linkedList = linkedList;
@@ -35,7 +34,6 @@ public class Statics {
 
 	/**
 	 * Este metodo nos calcula la media de los valores que se encuentran en la lista 
-	 * @param numbers de tipo LinkedList
 	 * @return mean de tipo Double
 	 */
 	public Double mean(){
@@ -50,7 +48,6 @@ public class Statics {
 
 	/**
 	 * Este metodo calcula la desviacion estandar de la población de datos
-	 * @param numbers de tipo LinkedList
 	 * @return standard desviation de tipo Double
 	 */
 	public Double standardDesviation(){
