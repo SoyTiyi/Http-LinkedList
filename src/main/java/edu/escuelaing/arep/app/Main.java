@@ -1,4 +1,4 @@
-package edu.escuelaing.arep.app;
+/* package edu.escuelaing.arep.app;
 
 public class Main {
     LinkedList linkedList;
@@ -57,3 +57,4 @@ public class Main {
         System.out.println("###################################################");
      }
 }
+ */

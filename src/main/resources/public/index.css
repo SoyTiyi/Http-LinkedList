@@ -14,7 +14,7 @@ body {
     background-color: #6f523b;
 }
 
-.container-center {
+.formCal {
     margin: 20px 20px;
 }
 
@@ -47,4 +47,8 @@ body {
 
 .result {
     color: #e8dab2;
+}
+
+.row {
+    text-align: center;
 }

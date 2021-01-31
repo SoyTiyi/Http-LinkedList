@@ -1,12 +1,22 @@
 package edu.escuelaing.arep.app.Spark;
-
-import static spark.Spark.*;
+import static spark.Spark.port;
+import static spark.Spark.post;
+import static spark.Spark.staticFiles;
+import edu.escuelaing.arep.app.Statics;
 
 public class SparkWebApp {
     
     public static void main(String[] args){
         port(getPort());
-        get("/hello", (req,res) -> "Hello Heroku - prueba");
+		staticFiles.location("/public");
+		post("/calc", (request, response) -> {
+            
+            Statics statics = new Statics();
+            statics.readJSON(request.body());
+			
+			return "{\"media\":" + statics.mean() + ", \"desviacion\":" + statics.standardDesviation() + "}";
+		});
+
     }
 
     static int getPort(){
