@@ -46,6 +46,10 @@ $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.Spark.SparkWebApp"
 
 [![CircleCI](https://circleci.com/gh/SoyTiyi/Http-LinkedList.svg?style=svg)](https://circleci.com/gh/SoyTiyi/Http-LinkedList)
 
+## Despliegue en Heroku
+
+[![Heroku App Status](http://heroku-shields.herokuapp.com/fast-waters-46508)](https://fast-waters-46508.herokuapp.com)
+
 ## Correr Pruebas
 
 Para correr las pruebas, ejecutamos el siguiente comando
