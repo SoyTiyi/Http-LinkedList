@@ -1,10 +1,10 @@
 # Use Maven, HEROKU, GIT, Spark and GITHUB.
 
-En este Taller crearemos una aplicación web la cual mediante una pagina web adjuntaremos la lista de numeros de los cuales queremos calcularle la media y la desviación estandar. 
+En este Taller crearemos una aplicación web la cual mediante una pagina web adjuntaremos la lista de números de los cuales queremos calcularle la media y la desviación estándar.
 
-Para realizar esto, utilizaremos herraminetas como Heroku, GIT, Spark y GITHUB
+Para realizar esto, utilizaremos herramientas como Heroku, GIT, Spark y GITHUB.
 
-Y tecnologias como lo son html, css, JavaScript, JQuery, Java y JavaSpark 
+Y tecnologias como lo son html, css, JavaScript, JQuery, Java y Spark.
 
 ## Correr proyecto
 
@@ -31,7 +31,7 @@ Este comando nos descargara la dependencias necesarias, como lo son JUnit y Spar
  ```sh
 $ mvn package
  ```
- Y finalmente para ejecutar la aplicacion.
+ Y finalmente para ejecutar la aplicación.
 
  ```sh
 $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.Spark.SparkWebApp"
@@ -39,7 +39,7 @@ $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.Spark.SparkWebApp"
 
 ### Prerequisitos
 
-* Tener conocimientos basicos en la terminal o CMD
+* Tener conocimientos básicos en la terminal o CMD
 * Java SE Development Kit 8 -Java SE Runtime Environment 8 -Apache Maven.
 
 ## Integracion Continua
