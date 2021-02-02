@@ -1,23 +1,32 @@
 # Use Maven, HEROKU, GIT, Spark and GITHUB.
 
-En este proyecto vamos a implementar un proyecto utilizando la herramienta de software Maven el cual nos gestiona la contraccion y el manejo del ciclo de vida de nuestros proyectos en Java, y Git que es la herramienta para el control de versiones de nuestro codigo.
+En este Taller crearemos una aplicación web la cual mediante una pagina web adjuntaremos la lista de numeros de los cuales queremos calcularle la media y la desviación estandar. 
 
-Implementaremos un programa el cual calcula la media y la desviación estandar, utilizando una LinkedList creada por mi.
+Para realizar esto, utilizaremos herraminetas como Heroku, GIT, Spark y GITHUB
+
+Y tecnologias como lo son html, css, JavaScript, JQuery, Java y JavaSpark 
 
 ## Correr proyecto
+
+Primero Clonaremos el repositorio, para eso desde nuestro navegador nos dirigiremos al siguiente link
+
+```sh
+https://github.com/SoyTiyi/Http-LinkedList.git
+```
 
 Para clonar el repositorio debemos de correr el siguiente comando en cmd o en la terminal 
 
 ```sh
-$ git clone https://github.com/SoyTiyi/LinkedList_AREP.git
+git clone https://github.com/SoyTiyi/Http-LinkedList.git
  ```
 
  Y luego entraremos a la carperta LinkedList_AREP
 
 ```sh
-$ cd LinkedList_AREP
+$ cd Http-LinkedList
  ```
- Ahora descargaremos las dependencias de nuestro programa.
+Descargaremos y compilaremos el proyecto con el siguiente comando
+Este comando nos descargara la dependencias necesarias, como lo son JUnit y Spark
 
  ```sh
 $ mvn package
@@ -25,14 +34,16 @@ $ mvn package
  Y finalmente para ejecutar la aplicacion.
 
  ```sh
-$ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.Main"
+$ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.Spark.SparkWebApp"
  ```
 
 ### Prerequisitos
 
+Tener conocimientos basicos en la terminal o CMD
 Java SE Development Kit 8 -Java SE Runtime Environment 8 -Apache Maven.
 
 ## Integracion Continua
+
 [![CircleCI](https://circleci.com/gh/SoyTiyi/Http-LinkedList.svg?style=svg)](https://circleci.com/gh/SoyTiyi/Http-LinkedList)
 
 ## Correr Pruebas
@@ -55,11 +66,13 @@ $ mvn javadoc:javadoc
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [JUnit](https://mvnrepository.com/artifact/junit/junit) - Test framework
-* [vscode](https://code.visualstudio.com/) - IDE
+* [VIM](https://www.vim.org/download.php) - Editor de Texto VIM
 
-## Authors
+## Author
 
- - Santiago Martínez Martínez - Estudiante de la Escuela Colombiana De Ingeniería Julio Garavito - Noveno Semestre
+ - Santiago Martínez Martínez 
+ - Estudiante de la Escuela Colombiana De Ingeniería Julio Garavito 
+ - Noveno Semestre
 
 ## License
 
