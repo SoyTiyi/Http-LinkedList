@@ -48,7 +48,7 @@ $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.Spark.SparkWebApp"
 
 ## Despliegue en Heroku
 
-[![Heroku App Status](http://heroku-shields.herokuapp.com/fast-waters-46508)](https://fast-waters-46508.herokuapp.com)
+[![Heroku App](http://heroku-shields.herokuapp.com/fast-waters-46508)](https://fast-waters-46508.herokuapp.com)
 
 ## Correr Pruebas
 
