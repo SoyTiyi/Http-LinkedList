@@ -39,8 +39,8 @@ $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.Spark.SparkWebApp"
 
 ### Prerequisitos
 
-Tener conocimientos basicos en la terminal o CMD
-Java SE Development Kit 8 -Java SE Runtime Environment 8 -Apache Maven.
+* Tener conocimientos basicos en la terminal o CMD
+* Java SE Development Kit 8 -Java SE Runtime Environment 8 -Apache Maven.
 
 ## Integracion Continua
 
